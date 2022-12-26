@@ -63,7 +63,7 @@
           <h1>
             Contact Us
           </h1>
-          <form id="contact-form" method="post" action="contact.php" role="form">
+          <form id="contact-form" method="post" action="contact.php" role="form" data-netlify="true">
 
             <div class="messages"></div>
 
@@ -105,14 +105,6 @@
                 <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
                 <div class="help-block with-errors"></div>
               </div>
-
-
-              <div class="form-group">
-                <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
-                <div class="help-block with-errors"></div>
-              </div>
-
 
               <input type="submit" class="btn btn-success btn-send" value="Send message">
 
