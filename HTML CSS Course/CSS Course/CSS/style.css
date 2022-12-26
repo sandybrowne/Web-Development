@@ -1,0 +1,27 @@
+h1 {
+    color: orange;
+    text-align: center;
+
+}
+p {
+    color: green;
+}
+.content {
+    color:aquamarine;
+}
+body h2 span {
+    color:chartreuse;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: pink;
+}
+footer .blue {
+    color: pink;
+    background-color: yellow;
+}
+.violet {
+    color: violet;
+}

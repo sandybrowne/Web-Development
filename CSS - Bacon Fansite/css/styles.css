@@ -1,0 +1,26 @@
+/***********Tag Selectors************/
+h1 {
+  font-size: 200;
+  color: red;
+}
+
+/***********CLASS Selectors************/
+.bacon {
+  background-color: green;
+}
+
+.brocoli {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/***********ID Selectors************/
+#grey {
+  background-color: grey;
+}
+#big {
+  font-size: 250px;
+}
