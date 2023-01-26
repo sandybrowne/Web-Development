@@ -17,7 +17,7 @@ label {
   margin-bottom: 20px;
 }
 
-.help-block.with-errors {
+.help-block with-errors {
   color: #ff5050;
   margin-top: 5px;
 }
@@ -28,4 +28,31 @@ label {
 
 .text-muted {
   padding-bottom: 100;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* Additional Order classes for insurance-upgrades page */
+@media (min-width: 768px) {
+  .order-md-6 {
+    order: 6;
+  }
+
+  .order-md-7 {
+    order: 7;
+  }
+
+  .order-md-8 {
+    order: 8;
+  }
+
+  .order-md-9 {
+    order: 9;
+  }
+
+  .order-md-10 {
+    order: 10;
+  }
 }
